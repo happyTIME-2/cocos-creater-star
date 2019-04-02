@@ -43,7 +43,7 @@ cc.Class({
 
         var callback = cc.callFunc(this.playJumpSound, this);
 
-        return cc.repeatForever(cc.sequence(jumpUp, jumpDown, callback));
+        return cc.repeatForever(cc.sequence(jumpUp, jumpDown, callback).speed(0.01));
     },
 
     playJumpSound: function playJumpSound() {

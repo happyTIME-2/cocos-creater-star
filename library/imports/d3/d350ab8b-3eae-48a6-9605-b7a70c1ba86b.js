@@ -36,11 +36,6 @@ cc.Class({
             type: cc.AudioClip
         },
 
-        startBtn: {
-            default: null,
-            type: cc.Button
-        },
-
         resetBtn: {
             default: null,
             type: cc.Button
@@ -52,17 +47,10 @@ cc.Class({
         this.timer = 0;
         this.starDuration = 0;
         this.resetBtn.node.active = false;
-        this.startBtn.node.active = true;
         this.groundY = this.ground.y + this.ground.height / 2;
-        this.startBtn.node.on('click', this.startGame, this);
-        //this.startGame();
-    },
-
-
-    startGame: function startGame() {
-        this.startBtn.node.active = false;
         this.spawNewStar();
     },
+
 
     spawNewStar: function spawNewStar() {
         var newStar = cc.instantiate(this.starPrefab);
@@ -106,9 +94,10 @@ cc.Class({
         this.scoreDisplay.string = 'Game Over!';
         this.player.stopAllActions();
 
-        this.player.getComponent('Player').jumpHeight = 0;
-        this.player.getComponent('Player').accel = 0;
-        this.player.getComponent('Player').xSpeed = 0;
+        var playerNode = this.player.getComponent('Player');
+        playerNode.jumpHeight = 0;
+        playerNode.accel = 0;
+        playerNode.xSpeed = 0;
 
         this.resetBtn.node.active = true;
         this.resetBtn.node.on('click', this.resetGame, this);

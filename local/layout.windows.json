@@ -18,7 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 527.109375,
+                "height": 528.109375,
                 "type": "panel",
                 "width": 310
               },
@@ -27,7 +27,7 @@
                 "children": [
                   "assets"
                 ],
-                "height": 526.09375,
+                "height": 525.109375,
                 "type": "panel",
                 "width": 310
               }
@@ -101,22 +101,6 @@
         "cocos-services",
         "scene"
       ]
-    },
-    "window-1554117864064": {
-      "main": false,
-      "url": "unpack://static/window.html",
-      "windowType": "dockable",
-      "x": 662,
-      "y": 300,
-      "width": 600,
-      "height": 565,
-      "layout": {
-        "children": [],
-        "type": "dock-v"
-      },
-      "panels": [
-        "preferences"
-      ]
     }
   },
   "panels": {
@@ -125,6 +109,12 @@
       "y": 300,
       "width": 600,
       "height": 565
+    },
+    "sprite-editor": {
+      "x": 2624,
+      "y": 362,
+      "width": 516,
+      "height": 539
     }
   }
 }

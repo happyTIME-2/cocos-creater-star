@@ -36780,3 +36780,103 @@ STACK:
 2019-04-01T12:39:16.613Z - normal: Simulator: D/jswrapper (601): GC end ..., (js->native map) size: 0, all objects: 0
 2019-04-01T12:39:16.617Z - normal: Simulator: D/jswrapper (515): ScriptEngine::cleanup end ...
 2019-04-01T12:39:16.697Z - warn: Simulator: libpng warning: iCCP: known incorrect sRGB profile
+2019-04-02T05:15:46.231Z - error: [db-task][delete] Failed to delete asset undefined, messages: Error: Asset F:\work\cocos\start_project\assets\.fire is not exists
+    at D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17143
+    at i.each (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17570)
+    at D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:181:20
+    at Object.async.forEachOf.async.eachOf (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:233:13)
+    at Object.async.forEach.async.each (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:209:22)
+    at u.delete (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17073)
+    at _tasks.r.queue (D:\Program Files\CocosCreator\resources\app.asar\asset-db\index.js:1:2264)
+    at D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:987:13
+    at Immediate.process (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:953:21)
+    at runCallback (timers.js:672:20)
+    at u.o.error (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\utils.js:1:2250)
+    at D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17622
+    at D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17141
+    at i.each (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17570)
+    at D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:181:20
+    at Object.async.forEachOf.async.eachOf (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:233:13)
+    at Object.async.forEach.async.each (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:209:22)
+    at u.delete (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17073)
+    at _tasks.r.queue (D:\Program Files\CocosCreator\resources\app.asar\asset-db\index.js:1:2264)
+2019-04-02T05:15:55.568Z - error: [db-task][delete] Failed to delete asset undefined, messages: Error: Asset F:\work\cocos\start_project\assets\.fire is not exists
+    at D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17143
+    at i.each (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17570)
+    at D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:181:20
+    at Object.async.forEachOf.async.eachOf (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:233:13)
+    at Object.async.forEach.async.each (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:209:22)
+    at u.delete (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17073)
+    at _tasks.r.queue (D:\Program Files\CocosCreator\resources\app.asar\asset-db\index.js:1:2264)
+    at D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:987:13
+    at Immediate.process (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:953:21)
+    at runCallback (timers.js:672:20)
+    at u.o.error (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\utils.js:1:2250)
+    at D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17622
+    at D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17141
+    at i.each (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17570)
+    at D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:181:20
+    at Object.async.forEachOf.async.eachOf (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:233:13)
+    at Object.async.forEach.async.each (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:209:22)
+    at u.delete (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17073)
+    at _tasks.r.queue (D:\Program Files\CocosCreator\resources\app.asar\asset-db\index.js:1:2264)
+2019-04-02T05:15:57.746Z - error: [db-task][delete] Failed to delete asset undefined, messages: Error: Asset F:\work\cocos\start_project\assets\.fire is not exists
+    at D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17143
+    at i.each (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17570)
+    at D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:181:20
+    at Object.async.forEachOf.async.eachOf (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:233:13)
+    at Object.async.forEach.async.each (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:209:22)
+    at u.delete (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17073)
+    at _tasks.r.queue (D:\Program Files\CocosCreator\resources\app.asar\asset-db\index.js:1:2264)
+    at D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:987:13
+    at Immediate.process (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:953:21)
+    at runCallback (timers.js:672:20)
+    at u.o.error (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\utils.js:1:2250)
+    at D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17622
+    at D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17141
+    at i.each (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17570)
+    at D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:181:20
+    at Object.async.forEachOf.async.eachOf (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:233:13)
+    at Object.async.forEach.async.each (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:209:22)
+    at u.delete (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17073)
+    at _tasks.r.queue (D:\Program Files\CocosCreator\resources\app.asar\asset-db\index.js:1:2264)
+2019-04-02T05:16:04.063Z - error: [db-task][delete] Failed to delete asset undefined, messages: Error: Asset F:\work\cocos\start_project\assets\.fire is not exists
+    at D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17143
+    at i.each (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17570)
+    at D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:181:20
+    at Object.async.forEachOf.async.eachOf (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:233:13)
+    at Object.async.forEach.async.each (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:209:22)
+    at u.delete (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17073)
+    at _tasks.r.queue (D:\Program Files\CocosCreator\resources\app.asar\asset-db\index.js:1:2264)
+    at D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:987:13
+    at Immediate.process (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:953:21)
+    at runCallback (timers.js:672:20)
+    at u.o.error (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\utils.js:1:2250)
+    at D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17622
+    at D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17141
+    at i.each (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17570)
+    at D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:181:20
+    at Object.async.forEachOf.async.eachOf (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:233:13)
+    at Object.async.forEach.async.each (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:209:22)
+    at u.delete (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17073)
+    at _tasks.r.queue (D:\Program Files\CocosCreator\resources\app.asar\asset-db\index.js:1:2264)
+2019-04-02T05:16:17.591Z - error: [db-task][delete] Failed to delete asset undefined, messages: Error: Asset F:\work\cocos\start_project\assets\.fire is not exists
+    at D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17143
+    at i.each (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17570)
+    at D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:181:20
+    at Object.async.forEachOf.async.eachOf (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:233:13)
+    at Object.async.forEach.async.each (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:209:22)
+    at u.delete (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17073)
+    at _tasks.r.queue (D:\Program Files\CocosCreator\resources\app.asar\asset-db\index.js:1:2264)
+    at D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:987:13
+    at Immediate.process (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:953:21)
+    at runCallback (timers.js:672:20)
+    at u.o.error (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\utils.js:1:2250)
+    at D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17622
+    at D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17141
+    at i.each (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17570)
+    at D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:181:20
+    at Object.async.forEachOf.async.eachOf (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:233:13)
+    at Object.async.forEach.async.each (D:\Program Files\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:209:22)
+    at u.delete (D:\Program Files\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:17073)
+    at _tasks.r.queue (D:\Program Files\CocosCreator\resources\app.asar\asset-db\index.js:1:2264)

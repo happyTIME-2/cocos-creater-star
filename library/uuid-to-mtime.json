@@ -300,8 +300,8 @@
     "relativePath": "textures\\star.png"
   },
   "e7d47e99-8efa-4579-b1df-72b6c7eeb4c0": {
-    "asset": 1554120932062,
-    "meta": 1554120932077,
+    "asset": 1554182242873,
+    "meta": 1554182242889,
     "relativePath": "game.fire"
   },
   "9bdc31e2-9aff-4dd5-a34c-92f2c385ff4f": {
@@ -319,14 +319,29 @@
     "meta": 1554120009776,
     "relativePath": "scripts\\Star.js"
   },
-  "55400aca-b743-4895-a4ab-34af32c022ab": {
-    "asset": 1554121576067,
-    "meta": 1554121587277,
-    "relativePath": "scripts\\Player.js"
+  "3b9668d7-5f9b-4db5-ad24-bedd32303b31": {
+    "asset": 1554189451852,
+    "meta": 1554189451916,
+    "relativePath": "textures\\HelloWorld.png"
+  },
+  "d98f9b81-6280-4db2-8ba2-8132f4a6e94d": {
+    "asset": 1554191049777,
+    "meta": 1554191049784,
+    "relativePath": "particlesystem.prefab"
+  },
+  "204e6452-91eb-4b8e-a258-97e5f4843da5": {
+    "asset": 1554195911366,
+    "meta": 1554195911369,
+    "relativePath": "resources"
   },
   "d350ab8b-3eae-48a6-9605-b7a70c1ba86b": {
-    "asset": 1554122535075,
-    "meta": 1554122537604,
+    "asset": 1554197333656,
+    "meta": 1554197334571,
     "relativePath": "scripts\\Game.js"
+  },
+  "55400aca-b743-4895-a4ab-34af32c022ab": {
+    "asset": 1554197748727,
+    "meta": 1554197750565,
+    "relativePath": "scripts\\Player.js"
   }
 }
